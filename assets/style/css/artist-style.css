@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url("https://use.typekit.net/ugj0qof.css");
+
+html {
+  font-family: proxima-nova, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color:black;
+  line-height: 1.5;
+  margin:0;
+}
+
+
+body {
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+
+h1, h2, h3 {
+    color: #78c272;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#background{
+  width: 100%;
+  height: 472px
+}
+
+#card {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  height: 150px;
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  filter: drop-shadow(2px 5px 4px #ADACAC);
+}
+
+#cardleft {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#cardright{
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+#verified{
+  height: 14px;
+  width: 14px;
+}
+
+#songlist {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
+
+#item {
+  height: 120px;
+  width: 120px;
+  margin-right: 30px;
+}
+
+#card_name {
+  font-weight: bold;
+}
+
+#card_albums {
+  font-size: 11px;
+}
+
+#card_description {
+  font-size: 15px;
+}
+/*
+#album_cat25 {
+  position: absolute;
+  top: 514px;
+  left: 8px;
+  font-size: 25px;
+  font-size: 17;
+  font-weight: bold;
+}
+
+#album_date25{
+  position: absolute;
+  top: 527px;
+  left: 44px;
+  font-size: 13px;
+}*/
+
+#album_cat19 {
+  display:flex;
+   flex-direction: row;
+   margin:0;
+  font-size: 25px;
+  font-size: 17;
+  font-weight: bold;
+  margin-left:-5%;
+  padding-bottom:15px;
+  padding-top:15px;
+}
+.fix {
+  margin-left:-300%;
+}
+.album_date19 {
+  margin-top:10px;
+  padding-left:5px;
+  font-size: 13px;
+}
+
+
+#category {
+  position: relative;
+  font-weight: bold;
+  border-bottom: 2px solid #E5D08C;
+  text-align:center;
+  margin:20px;
+}
+
+
+#cat_albums {
+  position: relative;
+  font-weight: bold;
+  border-bottom: 2px solid #E5D08C;
+  text-align: center;
+  margin: 10px;
+
+  padding-top:10px;
+}
+
+.mini_card {
+  width: 400px;
+  background: white;
+  height: 60px;
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  opacity: .75;
+}
+
+.mini_card:hover {
+    opacity:1;
+    cursor: pointer;
+}
+
+.minileft {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.miniright {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home_title {
+  position: static;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.song_pic {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.song_title {
+  font-weight: 900;
+}
+
+.song_date {
+  font-size: 12px;
+  color: #505050;
+}

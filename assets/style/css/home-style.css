@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url("https://use.typekit.net/ugj0qof.css");
+
+html {
+    font-family: proxima-nova, Karla, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+html body {
+    margin: 0;
+}
+
+
+/*#logo {
+    position:absolute;
+    height:50px;
+    width:50px;
+    padding:0;
+    margin:16px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}*/
+
+#video-container {
+    position:fixed;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+}
+legend {
+    position:absolute;
+    left:5%;
+    top:50%;
+    font-size: 36px;
+    color: #EEAD00;
+    font-weight: 800;    
+}
+#navbar {
+    z-index:2;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+}
+#pull-left {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.left-nav-element {
+    margin-right:56px;
+    font-weight:bold;
+}
+#logo {
+    height:50px;
+    width:50px;
+    margin-top:8px;
+    margin-left:56px;
+    padding:0;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.searchContainer {
+    position:absolute;
+    top:50%;
+    right:10%;
+    height: 50px;
+    width: 400px;
+    display: inline-flex;
+    flex: 1 1 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchIcon {
+  padding: 15px;
+  background-color: white;
+}
+.searchIcon:hover {
+    color:#EEAD00;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.searchBox {
+  border: 0;
+    flex: 1;
+}
